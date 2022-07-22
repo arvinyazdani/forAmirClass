@@ -1,8 +1,10 @@
 '''
 ***git 
     1-start ==> git init
-    2-
-
+    2- git status 
+    3- git add .
+    4- git commit -m "message"
+    5- git log
 
 
 
@@ -37,6 +39,9 @@ creat README.md
     1-url   ==> 127.0.0.1/topics/  ==> urls.py
     2-templates html & css  ==> create in app folder ==> templates    
     3- setup views.py
+    
+    
+
     
     
 

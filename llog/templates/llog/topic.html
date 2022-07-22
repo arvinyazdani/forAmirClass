@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}topic : {{topic.text}}{% endblock title %}
+
+
+{% block content %}
+
+<h3>topic : {{topic.text}}</h3>
+
+    <ul>
+        {% for e in entry %}
+
+            <li>
+                <h4>
+                    {{e.text}}
+                </h4>
+                <p>{{e.date_added}}</p>
+
+            </li>
+        
+        {% endfor %}
+
+
+    </ul>
+
+{% endblock content %}

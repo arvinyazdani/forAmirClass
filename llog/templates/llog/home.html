@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+    Home Page
+{% endblock title %}
+
+
+{% block content %}
+
+<ul>
+    {% for t in topics %}
+    
+         
+             <li><a href="{% url 'llog:topic' t.id  %}">
+                <p>{{t.text}}</p>
+                </a>
+             </li>
+         
+    
+    
+    {% endfor %}
+</ul>    
+
+{% endblock content %}
